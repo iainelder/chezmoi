@@ -115,3 +115,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Everything above this line is stock .bashrc.
+# Everything below this line is from my dotfiles.
+
+# Source each script in the bash_scripts folder.
+# This allows for modular chagnes to the behavior.
+for f in ~/bash_scripts/*.sh; do
+  source "$f"
+done
+
