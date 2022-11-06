@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -euxo pipefail
+
+# programs.txt hash: {{ include "programs.txt" | sha256sum }}
+# Exit 255 to halt on first non-zero exit code.
+cat programs.txt \
+| xargs -I {} bash -c "$HOME/Repos/dotfiles/programs/{}/install.bash || exit 255"

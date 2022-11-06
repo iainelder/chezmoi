@@ -1,0 +1,4 @@
+["Repos/dotfiles"]
+    type = "git-repo"
+    url = "git@github.com:iainelder/dotfiles.git"
+    
