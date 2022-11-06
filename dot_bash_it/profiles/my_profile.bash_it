@@ -3,6 +3,8 @@
 # plugins
 plugins base
 plugins pyenv
+plugins rbenv
+plugins ruby
 completion aliases
 completion bash-it
 completion system
