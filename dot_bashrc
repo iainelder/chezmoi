@@ -119,9 +119,12 @@ fi
 # Everything above this line is stock .bashrc.
 # Everything below this line is from my dotfiles.
 
-# Source each script in the bash_scripts folder.
-# This allows for modular chagnes to the behavior.
-for f in ~/bash_scripts/*.sh; do
-  source "$f"
-done
+# Path to the bash it configuration
+export BASH_IT="$HOME/.bash_it"
+
+# Path to my custom Bash It configuration.
+export BASH_IT_CUSTOM="$HOME/bash_scripts"
+
+# Load Bash It
+source "$BASH_IT"/bash_it.sh
 
