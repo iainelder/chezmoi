@@ -1,0 +1,1 @@
+alias clustergit="clustergit --branch '' --recursive --exclude=/\.terraform/"
