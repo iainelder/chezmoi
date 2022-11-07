@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -euxo pipefail
+
+sudo apt-get install --yes {{ .ubuntu_packages | join " " }}
