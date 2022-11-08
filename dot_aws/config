@@ -1,0 +1,14 @@
+[profile sandbox-mgmt]
+sso_start_url = https://d-936707a5b2.awsapps.com/start
+sso_region = eu-west-1
+sso_account_id = 480783779961
+sso_role_name = AdministratorAccess
+region = eu-west-1
+
+[profile sandbox-codeartifact]
+sso_start_url = https://d-936707a5b2.awsapps.com/start
+sso_region = eu-west-1
+sso_account_id = 973820050801
+sso_role_name = AdministratorAccess
+region = eu-west-1
+
