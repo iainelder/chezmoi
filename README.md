@@ -5,7 +5,7 @@ Bootstrap a new Ubuntu user my environment.
 Start a Bash shell session and run this:
 
 ```bash
-sudo apt get install --yes curl git
+sudo apt-get install --yes curl git
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply iainelder/chezmoi
 ```
 
