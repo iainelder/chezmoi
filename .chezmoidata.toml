@@ -20,7 +20,6 @@ programs = [
   "rclone",
   "rocketchat",
   "s5cmd",
-  "saml2aws",
   "shellcheck",
   "spotify",
   "sqlean",
