@@ -1,6 +1,6 @@
 # chezmoi
 
-Bootstrap a new Ubuntu user my environment.
+Bootstrap a new Ubuntu user to my environment.
 
 Start a Bash shell session and run this:
 
