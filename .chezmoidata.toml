@@ -1,3 +1,4 @@
+# See "Repos/dotfiles" in .chezmoiexternal.toml for program names.
 programs = [
   "1password",
   "1password-cli",
